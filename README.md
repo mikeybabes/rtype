@@ -38,4 +38,14 @@ This work does not include or distribute copyrighted ROM data. Users must supply
 📛 Legal and Licensing
 All original trademarks and assets are the property of Irem and its respective rights holders.
 
-This repository does not contain original game ROMs, graphics, sound, or executable code. All findings and tools are shared for archival, educational, and reverse engineering research only.
+This repository does not contain original game ROMs, graphics, sound, or executable code. All findings and tools are only shared for archival, educational, and reverse engineering research.
+
+HOW TO USE?
+
+Inside each of the "R-Type1" and "R-TypeII" folders is a batch file. If you extract the original MAME ROMS relative to this title into this folder, you can execute the batch command.
+Note: I only work on Windows, so you should write your command lines or bash scripts for Linux or other systems. The batch file has some REM (comments) about what's passed in the command lines.
+The system will generate a large number of PNGS by extracting the relative images/tiles/maps from each game.
+
+The folders PNG and PSD for each have already been produced, which gives example results for those who like to examine them.
+PSD is, of course, a Photoshop file. 
+
