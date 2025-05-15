@@ -14,6 +14,7 @@ These games feature tile-based rendering engines, layered maps, dynamic palettes
 This work does not include or distribute copyrighted ROM data. Users must supply their own legally obtained ROM dumps to use the tools provided.
 
 🔍 Scope
+
 🕹️ R-Type (1987)
 - Background tilemaps decoded from screen RAM
 - Character-level and block-level tile structure
