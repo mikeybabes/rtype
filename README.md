@@ -41,6 +41,17 @@ All original trademarks and assets are the property of Irem and its respective r
 
 This repository does not contain original game ROMs, graphics, sound, or executable code. All findings and tools are only shared for archival, educational, and reverse engineering research.
 
+⚠️ Disclaimer on Code Snippets
+This project may contain minimal excerpts of reverse-engineered code from the arcade games R-Type and R-Type II, strictly for technical analysis, documentation, and education.
+
+These snippets are non-functional and non-executable and are provided only to explain the structure and behaviour of the game’s tile plotting logic.
+- No original ROM data, copyrighted routines, or full disassemblies are included.
+- The intent is to preserve knowledge of vintage hardware and graphics systems under fair use and historical documentation principles.
+- All original game code and assets remain the property of Irem and their respective rights holders.
+
+If you are a rights holder and believe that any content here infringes upon your rights, please open a GitHub issue or contact the repository maintainer to talk about resolution or removal.
+
+
 HOW TO USE?
 
 Inside each of the "R-Type1" and "R-TypeII" folders is a batch file. If you extract the original MAME ROMS relative to this title into this folder, you can execute the batch command.
