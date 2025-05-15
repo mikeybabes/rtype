@@ -4,6 +4,7 @@ R-Type & R-Type II Graphics Format Documentation
 This document contains technical research and tooling for decoding and visualising the graphics systems used in the arcade games R-Type (1987) and R-Type II (1989), developed by Irem.
 
 These games feature tile-based rendering engines, layered maps, dynamic palettes, and unique memory structures. This project aims to document and preserve the graphics formats used in both games for historical and educational purposes.
+
 🎯 Purpose
 - Preserve the technical design of R-Type and R-Type II
 - Help researchers understand early arcade graphics pipelines
@@ -11,12 +12,14 @@ These games feature tile-based rendering engines, layered maps, dynamic palettes
 - Offer tools and insights into tilemaps, palettes, and map hierarchies
 
 This work does not include or distribute copyrighted ROM data. Users must supply their own legally obtained ROM dumps to use the tools provided.
+
 🔍 Scope
 🕹️ R-Type (1987)
 - Background tilemaps decoded from screen RAM
 - Character-level and block-level tile structure
 - Dynamic palette RAM using 5-bit RGB values
 - Reverse-engineered using MAME debugger and memory tools
+  
 🕹️ R-Type II (1989)
 - Enhanced tile system:
   - 8×8 character tiles
@@ -25,11 +28,13 @@ This work does not include or distribute copyrighted ROM data. Users must supply
   - Master maps referencing block indices with flip and palette info
 - Palette data stored as aligned 48-byte blocks (16 colours × RGB)
 - Python tools reconstruct tilemaps to PNG with optional debugging overlays
+  
 📦 What's Included
 - Python scripts for decoding tile and map data
 - Palette validation and matching tools
 - Format documentation and layout diagrams
 - Example outputs (no original ROM data)
+
 📛 Legal and Licensing
 All original trademarks and assets are the property of Irem and its respective rights holders.
 
